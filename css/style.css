@@ -15,8 +15,11 @@ h1 .heilight {
   background-color: ;
 }
 
-.top-banner {
+section {
   display: flex;
+  margin-bottom: 100px;
+}
+.top-banner {
   background-image: url(../img/top-banner.png);
   background-repeat: no-repeat;
 }
@@ -30,11 +33,18 @@ h1 .heilight {
   width: 80%;
 }
 
-a {
+.btn {
   text-decoration: none;
   background-color: orange;
   padding: 12px;
   border-radius: 5px;
   background-image: linear-gradient(to left, tomato 10%, orange);
   color: white;
+  text-transform: uppercase;
+}
+
+.dream-big {
+  background-image: url(../img/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
